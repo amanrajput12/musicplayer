@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <div class="main_div">
+        <div class="music_container">
+            <h2 class="title">/We Rollin</h2>
+            <h3 class="artist"> Shubh</h3>
+            <div class="img_container">
+                 <img id="img" src="./image/music.png" alt="">
+               
+            </div>
+            <audio class="audio" src="./music/We Rollin (Official Video) - Shubh _ Rubbal GTR(MP3_320K).mp3" ></audio>
+            <audio class="audio" src="./music/Firecracker _ Jayeshbhai Jordaar _ Ranveer Singh _ Vishal _ Sheykhar _ New Song _ Laal Rangi Chola(MP3_320K).mp3"></audio>
+
+            <audio class="audio" src="./music/Shoot Da Order _ Jass Manak (Full Song) Jagpal Sandhu _ Jayy Randhawa _ Punjabi Songs _ Geet(MP3_320K).mp3"></audio>
+
+            <audio class="audio" src="./music/Kehndi Hundi Si Chan Tak Raah Bana De (Full Song) AP Dhillon I Gurinder Gill I Shinda Kahlon(MP3_320K).mp3" ></audio>
+ 
+         
+
+            <!-- controls -->
+            <div class="music_controls">
+                <i class="fa-solid fa-backward" id="backward" title="backward"></i>
+                <i class="fa-solid fa-play" id="play" title="play"></i>
+                <i class="fa-solid fa-forward" id="forward" title="forward"></i>
+                <Section>
+                    <input type="range" class="range"value="0" min="0" max="100">
+                   
+                </Section>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
